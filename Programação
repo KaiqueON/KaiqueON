@@ -15,3 +15,11 @@ double num1, num2, soma;
             num2 = double.Parse(Console.ReadLine());
             soma = num1 + num2;
             Console.WriteLine(soma);
+            
+           Programção - Valor da Area do Quadrado :
+           
+           double num1, mult;
+            Console.Write(" digite o valor do lado do quadrado: ");
+            num1 = double.Parse(Console.ReadLine());
+            mult = num1 * num1;
+            Console.WriteLine(mult);
