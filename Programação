@@ -23,3 +23,13 @@ double num1, num2, soma;
             num1 = double.Parse(Console.ReadLine());
             mult = num1 * num1;
             Console.WriteLine(mult);
+
+Programação - Valor da area do Trapezio :
+
+double num1, num2, num3, valor;
+            Console.Write(" Valor do lado do Trapezio: ");
+            num1 = double.Parse(Console.ReadLine());
+            num2 = double.Parse(Console.ReadLine());
+            num3 = double.Parse(Console.ReadLine());
+            valor = num1 + num2 * num3 / 2;
+            Console.WriteLine(valor);
