@@ -26,10 +26,42 @@ double num1, num2, soma;
 
 Programação - Valor da area do Trapezio :
 
-double num1, num2, num3, valor;
-            Console.Write(" Valor do lado do Trapezio: ");
-            num1 = double.Parse(Console.ReadLine());
-            num2 = double.Parse(Console.ReadLine());
-            num3 = double.Parse(Console.ReadLine());
-            valor = num1 + num2 * num3 / 2;
-            Console.WriteLine(valor);
+double basemaior, basemenor, altura, area;
+      Console.WriteLine("digite base maior: ");
+      basemaior = double.Parse (Console.ReadLine ());
+     
+      Console.WriteLine("digite base menor: ");
+      basemenor = double.Parse (Console.ReadLine ());
+     
+      Console.WriteLine("digite altura: ");
+      altura = double.Parse (Console.ReadLine ());
+     
+      area = (basemaior + basemenor)/2 * altura;
+     
+      Console.WriteLine ("A area: é " + area);
+      
+      Programação - Novo Salario :
+      
+      double salario, porcentagem, novo_salario;
+      Console.WriteLine ("Digite o salario: ");
+      salario = double.Parse (Console.ReadLine ());
+     
+      Console.WriteLine ("Digite o percentual: ");
+      porcentagem = double.Parse (Console.ReadLine ());
+     
+      novo_salario = salario * porcentagem/100 + salario;
+     
+      Console.WriteLine ("Novo salario " + novo_salario );
+      
+      Programação - Calculo Tensão Eletrica :
+      
+       double  v, r ,i;
+        Console.WriteLine ("Digite a corrente (I) :");
+        i = double.Parse (Console.ReadLine());
+       
+        Console.WriteLine ("Digite a resistencia (R) :");
+        r = double.Parse (Console.ReadLine());
+       
+        v = r * i;
+       
+        Console.WriteLine ("A tensão é : " +  v);
